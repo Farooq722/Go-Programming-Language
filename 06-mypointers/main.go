@@ -6,7 +6,7 @@ func main() {
 	fmt.Println("Welcome to the Pointers")
 
 	// var ptr *int ----- just declared the variable
-	//fmt.Println("what is inside the ptr", ptr)
+	//fmt.Println("what is inside the ptr", ptr)  Nill
 
 	number := 20
 	myPtr := &number 
