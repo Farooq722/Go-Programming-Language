@@ -35,8 +35,12 @@ func main(){
 	sliceMakeList = append(sliceMakeList,4899,566,7899)
 	fmt.Println(sliceMakeList)
 
+	// return true or flase
+	fmt.Println(sort.IntsAreSorted(sliceMakeList))
+	
 	//sorting
 	sort.Ints(sliceMakeList)
 	fmt.Println(sliceMakeList)
+	fmt.Println(sort.IntsAreSorted(sliceMakeList))
 
 }
