@@ -43,4 +43,11 @@ func main(){
 	fmt.Println(sliceMakeList)
 	fmt.Println(sort.IntsAreSorted(sliceMakeList))
 
+
+	//Remove elements based on index
+	cities := []string{"hyd","blr","chennai","pune","mumbai"}
+	fmt.Println(cities)
+	var index int = 2
+	cities = append(cities[:index], cities[index+1:]...)
+	fmt.Println(cities)        //[hyd blr pune mumbai]
 }
